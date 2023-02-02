@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(198, 226, 248);
+  box-sizing: border-box;
+}
+.calculator {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.calculator form input {
+  border: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+}
+form .display {
+  justify-content: center;
+  display: flex;
+  margin: 20px 0;
+}
+form .display input {
+  flex: 1;
+}
+form input.equal {
+  width: 125px;
+}
